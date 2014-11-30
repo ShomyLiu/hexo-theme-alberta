@@ -1,12 +1,8 @@
 # Alberta
 
-A new theme for [Hexo] based on [landscape](https://github.com/hexojs/hexo-theme-landscape/).
+A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
 
-- [Preview](http://jaychung.tw/)
-
-![](http://i.imgur.com/VX6cySy.png)
-
-![](http://i.imgur.com/N1j1TLg.png)
+- [Preview](http://zhaofei.tk/)
 
 ## Installation
 
@@ -45,7 +41,7 @@ menu_icon:
 
 # Content
 excerpt_link: Read More
-fancybox: true
+
 
 # Personal Image
 your_img: your_image_url
@@ -53,16 +49,12 @@ your_img: your_image_url
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
 google_plus:
 ```
 
-- **your_img** - Your own photo url, suggest putting a squarelike photo. (equal to or bigger than 150x150)
+
 - **menu** - Navigation menu, you need to `hexo new page 'about'` for the about page.
 - **menu_icon** - Navigation icon
 - **rss** - RSS link
 - **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
-- **fancybox** - Enable [Fancybox]
 - **google_analytics** - Google Analytics ID
-- **favicon** - Favicon path
-- **twitter** - Twiiter ID

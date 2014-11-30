@@ -2,7 +2,7 @@
 menu:
   Home: /
   Archives: /archives
-  About: /about
+  About: /aboutme.html
 rss: /atom.xml
 
 menu_icon:
@@ -12,15 +12,7 @@ menu_icon:
 
 # Content
 excerpt_link: Read More
-fancybox: true
-
-#your personal image
-your_img: holder.js/150x150
 
 # Miscellaneous
+favicon: /image/favicon.ico
 google_analytics: 
-favicon:
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:

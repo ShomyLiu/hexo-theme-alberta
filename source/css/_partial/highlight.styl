@@ -14,7 +14,7 @@ highlight-purple = #cc99cc
 
 $code-block
   background: highlight-background
-  margin: 0 10px
+  margin: 0 1em 1em 1em
   padding: 15px article-padding
   border-style: solid
   border-color: color-border
@@ -32,15 +32,19 @@ $line-numbers
   pre, code
     font-family: font-mono
   code
-    background: color-background
-    text-shadow: 0 1px #fff
-    padding: 0 0.3em
+    padding: 2px 4px;
+    display: inline;
+    color: #c7254e;
+    background-color: #f3f3f3;
+    border-radius: 0.2em;
+
   pre
     @extend $code-block
     code
       background: none
       text-shadow: none
       padding: 0
+      color: #ccc
   .highlight
     @extend $code-block
     pre
