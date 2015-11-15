@@ -1,27 +1,18 @@
-# Alberta
-
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
 
-- [Preview](http://zhaofei.tk/)
+- [Preview](http://selfboot.cn/)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/ken8203/hexo-theme-alberta.git themes/alberta
+$ git clone https://github.com/xuelangZF/hexo-theme-alberta.git themes/alberta
 ```
 
 ### Enable
 
 Modify `theme` setting in `_config.yml` to `alberta`.
-
-### Update
-
-``` bash
-cd themes/alberta
-git pull
-```
 
 ## Configuration
 
@@ -58,3 +49,4 @@ google_plus:
 - **rss** - RSS link
 - **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
 - **google_analytics** - Google Analytics ID
+
