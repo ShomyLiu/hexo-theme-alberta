@@ -41,12 +41,24 @@ your_img: your_image_url
 google_analytics:
 favicon: /favicon.png
 google_plus:
-```
 
+# Donate setting: Remember to modify
+donate:
+  enable: true
+  text: Donate Me?
+  wechat: http://xuelangzf-github.qiniudn.com/weixin.jpg
+  alipay: http://xuelangzf-github.qiniudn.com/zhifubao.jpg
+  
+# Copyright 
+copyright: true
+```
 
 - **menu** - Navigation menu, you need to `hexo new page 'about'` for the about page.
 - **menu_icon** - Navigation icon
 - **rss** - RSS link
 - **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
 - **google_analytics** - Google Analytics ID
+- **copyright** - Whether to add copyright in the post.(You need to change the `layout/_partial/post/copyright.ejs` to fit your own copyright)
+- **donate** - Setting about donate. 
+
 
