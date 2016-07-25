@@ -12,14 +12,20 @@ menu_icon:
 
 # Content
 excerpt_link: Read More
-copyright: true
 
 # Miscellaneous
 favicon: /image/favicon.ico
 google_analytics: UA-41784041-1
 baidu_analytics: fd3ab4b3c488cbb43afa1c2669f06648
-# la51_analytics: 18891135
 
+# copyright
+copyright:
+    enable: true
+    author: selfboot
+    email: xuezaigds@gmail.com
+    site: http://selfboot.cn
+
+# donate 
 donate:
   enable: true
   text: 欣赏此文？支持一下吧

@@ -42,15 +42,19 @@ google_analytics:
 favicon: /favicon.png
 google_plus:
 
-# Donate setting: Remember to modify
+# copyright
+copyright:
+    enable: true
+    author: selfboot
+    email: xuezaigds@gmail.com
+    site: http://selfboot.cn
+
+# donate 
 donate:
   enable: true
-  text: Donate Me?
+  text: 欣赏此文？支持一下吧
   wechat: http://xuelangzf-github.qiniudn.com/weixin.jpg
   alipay: http://xuelangzf-github.qiniudn.com/zhifubao.jpg
-  
-# Copyright 
-copyright: true
 ```
 
 - **menu** - Navigation menu, you need to `hexo new page 'about'` for the about page.
@@ -58,7 +62,7 @@ copyright: true
 - **rss** - RSS link
 - **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
 - **google_analytics** - Google Analytics ID
-- **copyright** - Whether to add copyright in the post.(You need to change the `layout/_partial/post/copyright.ejs` to fit your own copyright)
-- **donate** - Setting about donate. 
+- **copyright** - Setting about copyright.  Can add `copyright: false` to disable copyright in one specified post.
+- **donate** - Setting about donate.  Can add `donate: false` to disable copyright in one specified post.
 
 
