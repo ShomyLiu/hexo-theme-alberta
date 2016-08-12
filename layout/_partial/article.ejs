@@ -49,3 +49,8 @@
   </div>
 </section>
 <% } %>
+
+<% if (!index && post.share!=false){ %>
+  <%- partial('post/share') %>
+<% } %>
+
