@@ -2,12 +2,14 @@
 menu:
   Home: /
   Archives: /archives
-  About: /aboutme.html
+  Tag: /tags
+  About: /about
 rss: /atom.xml
 
 menu_icon:
   Home: fa-home
   Archives: fa-archive
+  Tag: fa-tag
   About: fa-user
 
 # Content
@@ -15,20 +17,16 @@ excerpt_link: Read More
 
 # Miscellaneous
 favicon: /image/favicon.ico
-google_analytics: UA-41784041-1
-baidu_analytics: fd3ab4b3c488cbb43afa1c2669f06648
-
+google_analytics: UA-74368890-2
+baidu_analytics: 32b891bf31961970a5392746b044d4e1
 # copyright
 copyright:
     enable: true
-    author: selfboot
-    email: xuezaigds@gmail.com
-    site: http://selfboot.cn
+    author: shomoy
+    email: shomyliu@gmail.com
+    site: http://shomy.top
 
 # donate
 donate:
-  enable: true
+  enable: false
   text: 欣赏此文？支持一下吧
-  wechat: http://xuelangzf-github.qiniudn.com/weixin.jpg
-  alipay: http://xuelangzf-github.qiniudn.com/zhifubao.jpg
-
