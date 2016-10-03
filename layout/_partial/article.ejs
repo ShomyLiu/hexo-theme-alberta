@@ -18,6 +18,15 @@
           </p>
         <% } %>
       <% } else { %>
+        <% if(!index){ %>
+            <div id="toc" class="toc-article">
+                <strong class="toc-title">文章目录</strong>
+                <%- toc(post.content, {
+                    class: 'post-toc',
+                    list_number: false
+                    }) %>
+            </div>
+        <% } %>
         <%- post.content %>
       <% } %>
     </div>
@@ -25,7 +34,7 @@
     <% if (!index && theme.donate.enable==true && post.donate!=false){ %>
 	    <%- partial('post/donate') %>
     <% } %>
-  
+
     <% if (!index && theme.copyright.enable==true && post.copyright!=false){ %>
 	    <%- partial('post/copyright') %>
     <% } %>
