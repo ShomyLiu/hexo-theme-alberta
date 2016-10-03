@@ -21,7 +21,7 @@ google_analytics: UA-74368890-2
 baidu_analytics: 32b891bf31961970a5392746b044d4e1
 # copyright
 copyright:
-    enable: true
+    enable: false
     author: shomoy
     email: shomyliu@gmail.com
     site: http://shomy.top
