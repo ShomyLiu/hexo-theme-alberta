@@ -45,7 +45,7 @@ google_plus:
 # copyright
 copyright:
     enable: true
-    author: selfboot
+    author: Shomy
     email: shomyliu@gmail.com
     site: http://shomy.top
 
