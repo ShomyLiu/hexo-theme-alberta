@@ -7,7 +7,7 @@ A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-
 ### Install
 
 ``` bash
-$ git clone https://github.com/xuelangZF/hexo-theme-alberta.git themes/alberta
+$ git clone git@github.com:ShomyLiu/hexo-theme-alberta.git
 ```
 
 ### Enable
@@ -46,15 +46,9 @@ google_plus:
 copyright:
     enable: true
     author: selfboot
-    email: xuezaigds@gmail.com
-    site: http://selfboot.cn
+    email: shomyliu@gmail.com
+    site: http://shomy.top
 
-# donate 
-donate:
-  enable: true
-  text: 欣赏此文？支持一下吧
-  wechat: http://xuelangzf-github.qiniudn.com/weixin.jpg
-  alipay: http://xuelangzf-github.qiniudn.com/zhifubao.jpg
 ```
 
 - **menu** - Navigation menu, you need to `hexo new page 'about'` for the about page.
