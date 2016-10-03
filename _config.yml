@@ -4,7 +4,7 @@ menu:
   Archives: /archives
   Tag: /tags
   About: /about
-rss: /atom.xml
+# rss: /atom.xml
 
 menu_icon:
   Home: fa-home
