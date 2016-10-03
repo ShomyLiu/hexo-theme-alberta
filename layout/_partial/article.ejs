@@ -1,8 +1,10 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <% if(page.path != 'tags/index.html' && page.path != 'about/index.html' && page.path != 'categories/index.html') { %>
   <div class="article-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     <%- partial('post/category') %>
   </div>
+  <% } %>
   <div class="article-inner">
     <% if (post.link || post.title){ %>
       <header class="article-header">
@@ -18,7 +20,7 @@
           </p>
         <% } %>
       <% } else { %>
-        <% if(!index){ %>
+        <% if(!index && post.toc != false){ %>
             <div id="toc" class="toc-article">
                 <strong class="toc-title">文章目录</strong>
                 <%- toc(post.content, {
@@ -27,6 +29,24 @@
                     }) %>
             </div>
         <% } %>
+        <% if (page.path === "tags/index.html"){ %>
+            <div id="tag-category">
+                <%- list_categories({
+                    depth: 1,
+                }) %>
+                <hr>
+                <div class="tags" >
+                <%- tagcloud({
+                   min_font: 16,
+                   max_font: 35,
+                   amount: 999,
+                   color: true,
+                   start_color: 'grey',
+                   end_color: 'blue',
+                }) %>
+                </div>
+            </div>
+        <% }  %>
         <%- post.content %>
       <% } %>
     </div>

@@ -250,5 +250,50 @@
     li
       list-style-type none
 
-  .toc-child 
+  .toc-child
     margin-left 1em
+
+/*tags-category*/
+#tag-category{
+        .category-list li{
+            display: inline-block;
+            margin: 0 1em .5em 0;
+            padding: 4px;
+            border: 1px solid lightgray;
+            font-size: 1.2em;
+        }
+        .category-list a {
+            color: #22c1af;
+        }
+        .category-list-item:hover a {
+            color: gray;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .category-list-count {
+            margin-left: 2px;
+            font-size: .6em;
+        }
+        .article-entry ul li:before{
+            display: none;
+        }
+        .article-inner  {
+            text-align: center;
+        }
+        .tags {
+            max-width: 40em;
+            margin: 2em auto;
+            margin-top: 0em;
+        }
+        .tags a {
+            margin-right: 1em;
+            border-bottom: 1px solid gray;
+            line-height: 45px;
+            white-space: nowrap;
+        }
+        .tags a:hover {
+            border-bottom: 2px solid black;
+            font-style: italic;
+            text-decoration: none;
+        }
+}
