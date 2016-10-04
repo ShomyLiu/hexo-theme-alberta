@@ -1,3 +1,10 @@
+
+修改如下:
+- 加入每篇文章的toc
+- 加入标签&分类页面, 关于
+- 加入leancloud 阅读量统计
+
+---
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
 
 - [Preview](http://selfboot.cn/)
