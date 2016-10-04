@@ -3,6 +3,9 @@
   <div class="article-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     <%- partial('post/category') %>
+    <% if (config.leancloud_visitors.enable) { %>
+      <%- partial('post/leancloud')  %>
+    <% } %>
   </div>
   <% } %>
   <div class="article-inner">
