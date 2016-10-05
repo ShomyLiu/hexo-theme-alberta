@@ -7,7 +7,7 @@
 ---
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
 
-- [Preview](http://selfboot.cn/)
+- [Preview](http://shomy.cn/)
 
 ## Installation
 
@@ -65,5 +65,3 @@ copyright:
 - **google_analytics** - Google Analytics ID
 - **copyright** - Setting about copyright.  Can add `copyright: false` to disable copyright in one specified post.
 - **donate** - Setting about donate.  Can add `donate: false` to disable copyright in one specified post.
-
-
