@@ -7,7 +7,7 @@
 ---
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
 
-- [Preview](http://shomy.cn/)
+- [Preview](http://shomy.top/)
 
 ## Installation
 
