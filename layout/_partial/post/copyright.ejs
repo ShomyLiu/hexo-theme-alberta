@@ -1,9 +1,10 @@
 <div class="article-footer-copyright">
-
-<p>本文由 <%= theme.copyright.author %> 发表于 <a href="<%= theme.copyright.site %>" target="_blank">个人博客</a>，采用<a href="http://creativecommons.org/licenses/by-sa/3.0/cn" target="_blank" >署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>。</p>
+<p>本文由 <%= theme.copyright.author %> 发表于 <a href="<%= theme.copyright.site %>" target="_blank">个人博客</a></p>
 <p>非商业转载请注明作者及出处。商业转载请联系<a href="mailto:<%= theme.copyright.email%>">作者</a>本人。</p>
 <p>
 本文标题为: <%= post.title %><br/>
+</p>
+<p>
 本文链接为: <a href="<%- url_for(post.path) %>" target="_blank"><%=theme.copyright.site%><%- url_for(post.path) %></a>
 </p>
 </div>

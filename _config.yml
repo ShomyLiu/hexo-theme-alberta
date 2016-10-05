@@ -19,11 +19,11 @@ excerpt_link: Read More
 # Miscellaneous
 favicon: /image/favicon.ico
 google_analytics: UA-74368890-2
-baidu_analytics: 32b891bf31961970a5392746b044d4e1
+baidu_analytics: e1043fa646166c95fc2fc95a9c5456f8
 # copyright
 copyright:
-    enable: false
-    author: shomoy
+    enable: true
+    author: shomy
     email: shomyliu@gmail.com
     site: http://shomy.top
 
