@@ -11,6 +11,7 @@ menu_icon:
   Archives: fa-archive
   Tag: fa-tag
   About: fa-user
+  rss: fa-rss
 
 # Content
 excerpt_link: Read More
