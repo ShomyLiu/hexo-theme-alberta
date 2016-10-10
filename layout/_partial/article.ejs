@@ -54,6 +54,10 @@
       <% } %>
     </div>
 
+    <% if (!index && post.mathjax==true){ %>
+	    <%- partial('post/mathjax') %>
+    <% } %>
+
     <% if (!index && theme.donate.enable==true && post.donate!=false){ %>
 	    <%- partial('post/donate') %>
     <% } %>
