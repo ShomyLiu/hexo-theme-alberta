@@ -66,8 +66,8 @@
     &:hover
       text-decoration: underline
   ul, ol, dl
-    margin-top: line-height
-    margin-bottom: line-height
+    margin-top: line-height-0.4em
+    margin-bottom: line-height-0.2em
   img, video
     max-width: 80%
     max-height: 400px
@@ -230,30 +230,42 @@
   margin-top: 0.5em
 
 /*toc*/
-.toc-article
-  background #eee
-  border 1px solid #bbb
-  border-radius 10px
-  margin 1.5em 0 0.3em 1.5em
-  padding 1.2em 1em 0 1em
-  max-width 28%
+#toc.toc-article
+  background: #eee;
+  border-radius: 4px;
+  margin: 1.6em 0 1.6em 2em;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  -webkit-border-radius: 4px;
+  padding: 1.1em 0.4em 0 1em
 
-.toc-title
-  font-size 120%
+@media screen and (max-width: 479px)
+  #toc.toc-article
+    padding: 1.2em 0
+    margin: 1.7em 0;
+    width: 100%;
+
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+  #toc.toc-article
+    padding: 1.2em 0
+    margin: 1.7em 0;
+    width: 100%;
 
 #toc
-  line-height 1em
-  font-size 0.9em
-  float right
-  .toc
-    padding 0
-    margin 1em
-    line-height 1.8em
-    li
-      list-style-type none
+  line-height: 1.3em;
+  font-size: 0.8em;
+  float: right;
 
-  .toc-child
-    margin-left 1em
+#toc .toc li
+  list-style-type: none;
+
+#toc .toc li a:hover
+  text-decoration: none !important;
+
+#toc .toc-child
+  padding-left: 1.5em;
+
 
 /*tags-category*/
 #tag-category{
