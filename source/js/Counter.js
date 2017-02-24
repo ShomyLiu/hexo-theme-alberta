@@ -27,7 +27,6 @@ function showTime(Counter) {
 
 function addCount(Counter) {
     var Counter = AV.Object.extend("Counter");
-    // 注意 选择子 选择的类名，如果你想自定义类名，别忘记修改这里
     url = $(".leancloud_visitors").attr('id').trim();
     title = $(".leancloud_visitors").attr('data-flag-title').trim();
 
@@ -39,7 +38,6 @@ function addCount(Counter) {
             // 如果命中，浏览数+1
             if (results.length > 0) {
                 var counter = results[0];
-        //        console.log(counter.get('time'));
                 counter.fetchWhenSave(true);
                 counter.increment("time");
                 counter.save(null, {
@@ -47,11 +45,9 @@ function addCount(Counter) {
                         var content = counter.get('time') + ' ' + $(document.getElementById(url)).text();
                         $(document.getElementById(url)).text(content);
                     },
-                    // 注意，这里如果请求leancloud，为了不至于显示不了数字，改成如下的代码
                     error: function (counter, error) {
                         var content = counter.get('time') + ' ' + $(document.getElementById(url)).text();
                         $(document.getElementById(url)).text(content);
-                        //console.log('Failed to save Visitor num, with error message: ' + error.message);
                     }
                 });
             } else {
@@ -62,7 +58,6 @@ function addCount(Counter) {
                 newcounter.set("time", 1);
                 newcounter.save(null, {
                     success: function (newcounter) {
-         //               console.log("newcounter.get('time')=" + newcounter.get('time'));
                         var content = newcounter.get('time') + ' ' + $(document.getElementById(url)).text();
                         $(document.getElementById(url)).text(content);
                     },
