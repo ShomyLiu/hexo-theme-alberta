@@ -34,7 +34,6 @@ function addCount(Counter) {
     query.equalTo("url", url);
     query.find({
         success: function (results) {
-            console.log(results);
             // 如果命中，浏览数+1
             if (results.length > 0) {
                 var counter = results[0];
@@ -77,7 +76,6 @@ $(function () {
     if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
     } else if ($('.post-title-link').length >= 1) {
-    // 注意边界值
         showTime(Counter);
     }
 });
