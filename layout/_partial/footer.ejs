@@ -2,5 +2,8 @@
 <%- partial('post/top-rocket') %>
 <script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
 <%- partial('lean-cloud') %>
+
+<% if (config.disqus_shortname){ %>
 <script id="dsq-count-scr" src="//shomy.disqus.com/count.js" async></script>
+ <% } %>
 <%- js('js/script') %>
