@@ -19,7 +19,7 @@ excerpt_link: Read More
 # Miscellaneous
 favicon: /image/favicon.ico
 google_analytics: UA-74368890-2
-baidu_analytics: e1043fa646166c95fc2fc95a9c5456f8
+# baidu_analytics: e1043fa646166c95fc2fc95a9c5456f8
 # copyright
 copyright:
     enable: true
