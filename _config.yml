@@ -16,6 +16,7 @@ menu_icon:
 # Content
 excerpt_link: Read More
 
+post_date_format: YYYY-MM-DD, HH:mm:ss
 # Miscellaneous
 favicon: /image/favicon.ico
 google_analytics: UA-74368890-2
