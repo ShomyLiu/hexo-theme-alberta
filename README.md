@@ -1,10 +1,11 @@
 
 修改如下:
 - 加入每篇文章的toc
-- 加入标签&分类页面, 关于
+- 加入标签&分类页面, 关于页面
 - 加入leancloud 阅读量统计
 - 加入mathjax
 - 加入向上按钮，参考: [Maupassant Theme](https://www.haomwei.com/)
+- 加入文章更新时间
 
 ---
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
