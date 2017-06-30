@@ -6,6 +6,7 @@
 - 加入mathjax
 - 加入向上按钮，参考: [Maupassant Theme](https://www.haomwei.com/)
 - 加入文章更新时间
+- 加入搜索功能, 参考: [next-theme](https://github.com/iissnan/hexo-theme-next), [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search)
 
 ---
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
