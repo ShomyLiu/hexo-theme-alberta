@@ -1,3 +1,4 @@
+
 <header id="header">
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
@@ -16,9 +17,9 @@
         <% for (var i in theme.menu){ %>
           <li><a href="<%- url_for(theme.menu[i]) %>"><i class="fa <%= theme.menu_icon[i] %> icon-setting"></i></a></li>
         <% } %>
-        <% if (theme.rss){ %>
-          <li><a href="<%- theme.rss %>"><i class="fa fa-rss %> icon-setting"></i></a></li>
-        <% } %>
+        <% if (theme.localsearch) { %>
+          <li><a href="javascript:;" class="popup-trigger"><i class="fa fa-search > icon-setting"></i></a></li>
+        <%  } %>
         </ul>
       </nav>
     </div>
