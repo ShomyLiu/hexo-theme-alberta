@@ -6,4 +6,10 @@
 <% if (config.disqus_shortname){ %>
 <script id="dsq-count-scr" src="//shomy.disqus.com/count.js" async></script>
  <% } %>
+
+<% if(theme.localsearch){%>
+  <%- js('js/search') %>
+<% }%>
+
 <%- js('js/script') %>
+

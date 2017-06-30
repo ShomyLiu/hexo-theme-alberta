@@ -4,7 +4,6 @@ menu:
   Archives: /archives
   Tag: /tags
   About: /about
-  rss: /atom.xml
 
 menu_icon:
   Home: fa-home
@@ -12,6 +11,7 @@ menu_icon:
   Tag: fa-tag
   About: fa-user
   rss: fa-rss
+  Search: fa-search
 
 # Content
 excerpt_link: Read More
@@ -28,6 +28,10 @@ copyright:
     email: shomyliu@gmail.com
     site: http://shomy.top
 
+# localsearch
+localsearch:
+    enable: true
+    path: 'search.xml'
 # donate
 donate:
   enable: false
