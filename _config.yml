@@ -28,6 +28,10 @@ copyright:
     email: shomyliu@gmail.com
     site: http://shomy.top
 
+# fancybox
+fancybox:
+    enable: true
+
 # localsearch
 localsearch:
     enable: true

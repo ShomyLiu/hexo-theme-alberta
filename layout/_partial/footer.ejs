@@ -7,9 +7,13 @@
 <script id="dsq-count-scr" src="//shomy.disqus.com/count.js" async></script>
  <% } %>
 
+<% if(theme.fancybox){%>
+  <script src="//cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+  <%- js('js/fancybox') %>
+<% }%>
+
 <% if(theme.localsearch){%>
   <%- js('js/search') %>
 <% }%>
-
 <%- js('js/script') %>
 
