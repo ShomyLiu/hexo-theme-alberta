@@ -1,5 +1,5 @@
 
-修改如下:
+自定义修改如下:
 - 加入每篇文章的toc
 - 加入标签&分类页面, 关于页面
 - 加入leancloud 阅读量统计
@@ -7,6 +7,8 @@
 - 加入向上按钮，参考: [Maupassant Theme](https://www.haomwei.com/)
 - 加入文章更新时间
 - 加入搜索功能, 参考: [next-theme](https://github.com/iissnan/hexo-theme-next), [hexo-generator-search](https://github.com/PaicHyperionDev/hexo-generator-search)
+- 加入图片预览功能(基于Fancbox), 参考[tianma](http://tianma.pro)
+
 
 ---
 A new theme for [Hexo] based on [Alberta](https://github.com/ken8203/hexo-theme-alberta/).
