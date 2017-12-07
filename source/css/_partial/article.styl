@@ -218,12 +218,15 @@
 
 .article-nav-caption
   text-transform: uppercase
-  letter-spacing: 0.7px
+  letter-spacing: 2px
   color: color-border
   line-height: 1em
   font-weight: bold
   #article-nav-newer &
     margin-right: -2px
+  @media mq mobile
+    letter-spacing: 0.1px
+
 
 .article-nav-title
   font-size: 0.85em
